@@ -50,7 +50,7 @@ const resume = () => {
         </div>
         <p>
         Dedicated and motivated web developer with experience in technical support. 
-        Adept to learning new technologies, team collaboration, and relationship building. 
+        Disposed toward learning new technologies, team collaboration, and relationship building. 
         Excited to put my knowledge and skills into practice and develop them.
         </p>
 
