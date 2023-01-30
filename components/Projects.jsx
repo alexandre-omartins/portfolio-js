@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import galaxyImg from '../public/assets/projects/galaxy.jpg'
+
 import blankImg from '../public/assets/projects/blank.png'
-import crudImg from '../public/assets/projects/crud.jpg'
+
 
 const Projects = () => {
   return (
