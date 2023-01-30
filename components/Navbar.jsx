@@ -62,27 +62,27 @@ const Navbar = () => {
     > 
         
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-       <div className=''>
-        <Image src={NavLogo} className='animate-pulse'  />
+          <div> 
+        <Image src={NavLogo} className='animate-pulse'  /> 
        </div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b duration-300 ease-in hover:text-[#4e84f0]'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
