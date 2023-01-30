@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-// import galaxyImg from '../public/assets/projects/galaxy.jpg'
+import galaxyImg from '../public/assets/projects/galaxy.jpg'
 import blankImg from '../public/assets/projects/blank.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -14,7 +14,7 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={blankImg}
+          src={galaxyImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
