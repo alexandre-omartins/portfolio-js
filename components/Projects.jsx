@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import galaxyImg from '../public/assets/projects/crud.jpg'
-import crudImg from '../public/assets/projects/galaxy.jpg'
+import galaxyImg from '../public/assets/projects/galaxy.jpg'
+import crudImg from '../public/assets/projects/crud.jpg'
 import blankImg from '../public/assets/projects/blank.png'
 
 
@@ -18,13 +18,13 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Galaxy Travel'
-            backgroundImg={crudImg}
+            backgroundImg={galaxyImg}
             projectUrl='/galaxy'
             tech='React JS'
           />
           <ProjectItem
             title='Crud App'
-            backgroundImg={galaxyImg}
+            backgroundImg={crudImg}
             projectUrl='/crud'
             tech='Php'
 
