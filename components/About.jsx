@@ -13,12 +13,11 @@ const About = () => {
           </p>
           <h2 className='py-4 hover:scale-105 duration-300 ease-in hover:text-[#4e84f0]'>Who I Am</h2>
           <p className='py-2 text-gray-600 text-justify leading-{26px}'>
-          I started web developement in 2020 learning and building front-end that connect with backend technologies with Html, Css and Php.
-           I like to learning new technologies and nowadays i’m studying new ones like javascript and react
-            and understand there is more than one way to accomplish a task.
-             Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React,
-              I am a very dedicated person and can pick up new tech stacks as needed.
-               I believe that being a great developer is not using one specific language, but choosing the best tool for the job.
+          I started web developement in 2020 learning and building front-end that connect with backend technologies with Html,
+           Css and Php. My focus is learn new technologies and nowadays I’m more interested in study javascript and react 
+           and understand there is more than one way to accomplish a task. Even though I am proficient in building front-end
+            applications using HTML, CSS, Javascript, and React, I am a very dedicated person and can pick up new tech stacks as needed.
+             I believe that being a great developer is not using one specific language, but choosing the best tool for the job.
       </p>
           
           <Link href='/#projects'>
