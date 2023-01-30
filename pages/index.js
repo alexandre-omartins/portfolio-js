@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Alexandre | Web Developer</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <meta name="description" content="I’m a front-end web developer" />
         <link rel="icon" href="../public/assets/logo.png" />
       </Head>
     <Main />
