@@ -43,6 +43,7 @@ const Contact = () => {
                   me and let&apos;s talk.
                 </p>
               </div>
+              {/*
               <div className='flex items-center justify-between'>
                  
                     <div onMouseEnter={onHover} onMouseLeave={onLeave}  
@@ -51,8 +52,9 @@ const Contact = () => {
                      {hover ? "  71981329184" : <FaPhoneAlt />}
                      
                     </div>
-                  
+                     
                   </div>
+                  */}
 
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
