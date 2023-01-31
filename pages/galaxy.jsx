@@ -35,20 +35,20 @@ const property = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 font-bold'>Code</button>
           </a>
           <a
             href='https://reactjs-liard.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 font-bold'>Demo</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 ml-2.5'>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
@@ -62,9 +62,11 @@ const property = () => {
             </div>
           </div>
         </div>
+        <div>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline cursor-pointer duration-300 ease-in hover:text-[#4e84f0]'>Back</p>
         </Link>
+        </div>
       </div>
     </div>
   );

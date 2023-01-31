@@ -28,23 +28,24 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className='mt-6'>
-            Um projeto com CRUD (Create, Read, Update, Delete) que são as quatro principais
-             operações com um banco de dados(inserir, ler, atualizar, excluir)
+          A project with CRUD (Create, Read, Update, Delete) which are the four main operations with a database.
           </p>
           <a
             href='https://github.com/alexandre-omartins/Php_crud'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 font-bold'>Code</button>
           </a>
+
+         
           
 
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1 '>
+            <div className='grid grid-cols-3 md:grid-cols-1 ml-2.5'>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Php
               </p>
@@ -66,8 +67,8 @@ const crypto = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+        <Link href='/#projects'  >
+          <p className='underline cursor-pointer duration-300 ease-in hover:text-[#4e84f0]'>Back</p>
         </Link>
       </div>
     </div>

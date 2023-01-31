@@ -8,7 +8,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/package.png'
+import Package from '../public/assets/package.png'
 
 
 const Navbar = () => {
@@ -21,10 +21,10 @@ const Navbar = () => {
 
   // useEffect(() => {
   //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
+  //     router.asPath === '/crud' ||
+  //     router.asPath === '/galaxy' ||
+  //     router.asPath === '/weather' ||
+  //     
   //   ) {
   //     setNavBg('transparent');
   //     setLinkColor('#ecf0f3');
@@ -63,7 +63,7 @@ const Navbar = () => {
         
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <div> 
-        <Image src={NavLogo} className='animate-pulse'  /> 
+        <Image src={Package} className='animate-pulse'  /> 
        </div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -118,7 +118,7 @@ const Navbar = () => {
                 <a>
                   <Image 
                   className='animate-pulse'
-                    src={NavLogo}
+                    src={Package}
   
                     alt='/'
                   />

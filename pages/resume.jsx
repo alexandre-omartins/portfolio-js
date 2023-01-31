@@ -97,7 +97,18 @@ const resume = () => {
           </ul>
         </div>
 
-
+        <h5 className='text-center underline text-[18px] py-4'>
+          Academic Education 
+        </h5> 
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            UNIVERSIDADE SALVADOR
+            </span>
+            <span className='px-2'>|</span>Salvador, BA, Brasil
+          </p>
+          <p className='py-1 italic'>Bachelor of Computer Science (2016 - )</p>
+        </div>
       
 
       </div>
