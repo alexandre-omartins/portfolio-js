@@ -8,6 +8,14 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
+  const [hover, setHover] = useState(false);
+  const onHover = () => {
+    setHover(true);
+  };
+
+  const onLeave = () => {
+    setHover(false);
+  };
 
   return (
     <div id='contact' className='w-full lg:h-screen'>
@@ -37,8 +45,11 @@ const Contact = () => {
               </div>
               <div className='flex items-center justify-between'>
                  
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#4e84f0]'>
-                      <FaPhoneAlt />
+                    <div onMouseEnter={onHover} onMouseLeave={onLeave}  
+                    className='rounded-full cursor-pointer shadow-lg shadow-gray-400 p-6 hover:scale-110 ease-in duration-300 hover:text-[#4e84f0] flex hover:columns-2'>
+              
+                     {hover ? "  71981329184" : <FaPhoneAlt />}
+                     
                     </div>
                   
                   </div>
@@ -90,7 +101,7 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Name</label>
+                    <label className='uppercase text-sm py-2 '>Name</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
