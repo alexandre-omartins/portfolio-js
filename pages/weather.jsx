@@ -2,8 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import weatherImg from '../public/assets/projects/weather.png'
 
-const netflix = () => {
+const weather = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -12,7 +13,7 @@ const netflix = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src
+          src={weatherImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -26,17 +27,17 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-           Weather App built in react js, with an api using axios
+           Weather App built in react and next js, with an api using axios
           </p>
           <a
-            href='https://github.com/'
+            href='https://github.com/alexandre-omartins/weather-nextjs'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 font-bold'>Code</button>
           </a>
           <a
-            href=''
+            href='https://weather-nextjs-six.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -73,4 +74,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default weather;

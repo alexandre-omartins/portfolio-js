@@ -5,6 +5,7 @@ import ProjectItem from './ProjectItem';
 import galaxyImg from '../public/assets/projects/galaxy.jpg'
 import crudImg from '../public/assets/projects/crud.jpg'
 import blankImg from '../public/assets/projects/blank.png'
+import weatherImg from '../public/assets/projects/weather.png'
 
 
 const Projects = () => {
@@ -30,9 +31,9 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Not Ready'
-            backgroundImg={blankImg}
-            projectUrl='/#projects'
+            title='Weather App'
+            backgroundImg={weatherImg}
+            projectUrl='/weather'
             tech='React JS'
 
           />

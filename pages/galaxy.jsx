@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import galaxyImg from '../public/assets/projects/galaxy.jpg'
-import blankImg from '../public/assets/projects/blank.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const galaxy = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -72,4 +71,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default galaxy;
