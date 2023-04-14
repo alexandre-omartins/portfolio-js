@@ -18,7 +18,7 @@ const Projects = () => {
         <h2 className='py-4 hover:scale-105 ease-in duration-300 hover:text-[#4e84f0]'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Galaxy Travel'
+            title='Landing Page'
             backgroundImg={galaxyImg}
             projectUrl='/galaxy'
             tech='React JS'
