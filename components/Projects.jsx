@@ -4,7 +4,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import galaxyImg from '../public/assets/projects/galaxy.jpg'
 import crudImg from '../public/assets/projects/crud.jpg'
-import blankImg from '../public/assets/projects/blank.png'
+import deltaImg from '../public/assets/projects/delta.png'
 import weatherImg from '../public/assets/projects/weather.png'
 
 
@@ -38,10 +38,10 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Not Ready'
-            backgroundImg={blankImg}
-            projectUrl='/#projects'
-            tech='React'
+            title='Landing Page'
+            backgroundImg={deltaImg}
+            projectUrl='/delta'
+            tech='React JS'
 
           />
         </div>
