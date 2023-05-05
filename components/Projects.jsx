@@ -4,7 +4,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import galaxyImg from '../public/assets/projects/galaxy.jpg'
 import crudImg from '../public/assets/projects/crud.jpg'
-import deltaImg from '../public/assets/projects/delta.png'
+import deltaImg from '../public/assets/projects/delta1.png'
 import weatherImg from '../public/assets/projects/weather.png'
 
 

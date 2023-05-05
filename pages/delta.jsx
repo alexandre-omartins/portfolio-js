@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import deltaImg from '../public/assets/projects/delta.png'
+import deltaImg from '../public/assets/projects/delta1.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
