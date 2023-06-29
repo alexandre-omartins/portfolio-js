@@ -10,6 +10,8 @@ import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import AWS from '../public/assets/skills/aws.png';
 import php from '../public/assets/skills/php.png';
+import powerbi from '../public/assets/skills/powerbi.png';
+import excel from '../public/assets/skills/excel.png';
 
 const Skills = () => {
   return (
@@ -97,6 +99,26 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={powerbi} width='90px' height='50px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Power BI</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={excel} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Excel</h3>
               </div>
             </div>
           </div>
