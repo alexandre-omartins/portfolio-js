@@ -92,10 +92,12 @@ const resume = () => {
               Web developement with HTML, CSS, and Php.
             </li>
             <li>
-            Troubleshoot technical  issues and concerns directly with a diverse client base
+            Troubleshoot technical issues and concerns directly with a diverse client base
             </li>
           </ul>
         </div>
+
+
 
         <h5 className='text-center underline text-[18px] py-4'>
           Academic Education 
@@ -107,7 +109,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Salvador, BA, Brasil
           </p>
-          <p className='py-1 italic'>Bachelor of Computer Science (2016 - )</p>
+          <p className='py-1 italic'>Bachelor of Computer Science (2016 - 2023)</p>
         </div>
       
 

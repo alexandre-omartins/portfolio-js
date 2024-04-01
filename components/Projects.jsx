@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import galaxyImg from '../public/assets/projects/galaxy.jpg'
-import crudImg from '../public/assets/projects/crud.jpg'
+/* import crudImg from '../public/assets/projects/crud.jpg' */
 import deltaImg from '../public/assets/projects/delta1.png'
 import weatherImg from '../public/assets/projects/weather.png'
 
@@ -23,27 +23,30 @@ const Projects = () => {
             projectUrl='/galaxy'
             tech='React JS'
           />
-          <ProjectItem
+
+        {/*  <ProjectItem  
             title='Crud App'
             backgroundImg={crudImg}
             projectUrl='/crud'
             tech='Php'
+                />
+               */}
 
-          />
-          <ProjectItem
+          <ProjectItem 
             title='Weather App'
             backgroundImg={weatherImg}
             projectUrl='/weather'
             tech='React JS'
+           />
 
-          />
-          <ProjectItem
+         {/* <ProjectItem
             title='Landing Page'
             backgroundImg={deltaImg}
             projectUrl='/delta'
             tech='React JS'
-
-          />
+           />   
+               */}
+               
         </div>
       </div>
     </div>
