@@ -86,7 +86,7 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Salvador, BA, Brasil
           </p>
-          <p className='py-1 italic'>Web Developer & Technical Support (2019 - 2020)</p>
+          <p className='py-1 italic'>Intern in Web Developer & Technical Support (2019 - 2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Web developement with HTML, CSS, and Php.
@@ -97,7 +97,33 @@ const resume = () => {
           </ul>
         </div>
 
-
+{/* Experience */}
+<div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Fundação José Silveira
+            </span>
+            <span className='px-2'>|</span>Salvador, BA, Brasil
+          </p>
+          <p className='py-1 italic'>Intern in Systems Analysis & Technical Support (2023 - 2024)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            SQL Language - Maintenance/Implementation on the indicator panel.
+            </li>
+            <li>
+            Toad for Oracle.
+            </li>
+            <li>
+            Support in the implementation of the MV PEP system.
+            </li>
+            <li>
+            GLPI Management.
+            </li>
+            <li>
+            Support N1, N2.
+            </li>
+          </ul>
+        </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
           Academic Education 
